@@ -3,6 +3,7 @@ Time-Series Forecasting project focused on predicting Carbon Monoxide (CO) and N
 
 
 🌫️ Air Quality Forecasting: CO & NO₂ Levels using ML
+
 🔍 Project Overview
 
 This project uses Machine Learning models to forecast carbon monoxide (CO) and nitrogen dioxide (NO₂) levels based on air quality data. It aims to support early environmental risk assessment and health safety initiatives by predicting pollution levels from historical trends.
@@ -10,26 +11,20 @@ This project uses Machine Learning models to forecast carbon monoxide (CO) and n
 
 Accurate prediction of air pollutants like CO and NO₂ is crucial for public health and environmental planning. This project leverages time-series data and supervised learning models to build predictive systems for these pollutants.
 🧠 Machine Learning Techniques Used
-
-    Linear Regression
-
-    Random Forest Regressor
-
-    XGBoost
-
-    Support Vector Regression (SVR)
+    1) Linear Regression
+    2)Random Forest Regressor
+    3)XGBoost
+    4)Support Vector Regression (SVR)
 
 🛠️ Tools & Libraries
+    1) Python
+    2) Pandas
+    3) NumPy
+    4)cikit-learn
+    5)Matplotlib 
+    6)Seaborn
 
-    Python
-
-    Pandas, NumPy
-
-    Scikit-learn
-
-    Matplotlib, Seaborn
-
-    Jupyter Notebook
+Jupyter Notebook
 
 📁 Project Structure
 📦 Air-Quality-Forecasting/
@@ -38,3 +33,15 @@ Accurate prediction of air pollutants like CO and NO₂ is crucial for public he
  ┣ 📜 NO2_model.ipynb     # Notebook for Nitrogen Dioxide prediction
  ┣ 📜 EDA.ipynb           # Exploratory Data Analysis
  ┗ 📜 README.md           # This file
+📈 Results
+
+1)Achieved high accuracy in forecasting pollutant levels using tree-based ensemble models.
+2)Visualized pollutant trends and model predictions for better interpretability.
+
+    Visualized pollutant trends and model predictions for better interpretability.
+
+🚀 How to Run
+
+Clone the repository
+
+Install dependencies:
